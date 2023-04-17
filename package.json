@@ -11,10 +11,14 @@
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
     "@types/react-router-dom": "^5.3.3",
+    "@types/snoowrap": "^1.19.0",
+    "@types/three": "^0.150.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.5",
-    "react-router-dom": "^6.10.0"
+    "react-router-dom": "^6.10.0",
+    "snoowrap": "^1.23.0",
+    "three": "^0.151.3"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

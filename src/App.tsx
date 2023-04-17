@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Table } from "./features/spreadsheet/Table";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import "./App.css";
+import { HomePage } from "./pages/Home";
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/spreadsheet" element={<Table />}></Route>
-          <Route path="/" element={<h1>Home</h1>}></Route>
+          <Route path="/" element={<HomePage />}></Route>
         </Routes>
       </div>
     </Router>
